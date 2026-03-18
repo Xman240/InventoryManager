@@ -38,7 +38,7 @@ public class ContainerUI : MonoBehaviour
 
     public void UpdateContainerUI(InventoryContainer container_)
     {
-        Debug.Log("Updating ContainerUI");
+        
         foreach(GameObject obj in inventoryButtons)
         {
             Destroy(obj);

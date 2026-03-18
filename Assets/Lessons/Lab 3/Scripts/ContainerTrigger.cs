@@ -24,7 +24,6 @@ public class ContainerTrigger : MonoBehaviour
    {
       if (other.CompareTag("Player"))
       {
-         Debug.Log("Player entered container trigger");
 
          playerInteraction = other.GetComponent<PlayerInteraction>();
          if (playerInteraction != null)
@@ -42,7 +41,6 @@ public class ContainerTrigger : MonoBehaviour
    {
       if (other.CompareTag("Player"))
       {
-         Debug.Log("Player exited container trigger");
 
          PlayerInteraction player = other.GetComponent<PlayerInteraction>();
          if (player != null)
@@ -64,8 +62,7 @@ public class ContainerTrigger : MonoBehaviour
    public void Interact()
    {
       if (!playerInRange) return;
-
-      Debug.Log("Interacted with container");
+      
 
       isOpen = !isOpen;
 
