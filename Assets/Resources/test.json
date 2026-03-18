@@ -1,0 +1,42 @@
+{
+    "mapStates": [
+        {
+            "mapData": {
+                "instanceID": 48476
+            },
+            "enemies": [
+                {
+                    "enemyID": 0,
+                    "enemyData": {
+                        "instanceID": 48944
+                    },
+                    "currentHP": 5,
+                    "maxHP": 5
+                },
+                {
+                    "enemyID": 1,
+                    "enemyData": {
+                        "instanceID": 48944
+                    },
+                    "currentHP": 10,
+                    "maxHP": 10
+                }
+            ]
+        },
+        {
+            "mapData": {
+                "instanceID": 48254
+            },
+            "enemies": [
+                {
+                    "enemyID": 0,
+                    "enemyData": {
+                        "instanceID": 48944
+                    },
+                    "currentHP": 2,
+                    "maxHP": 2
+                }
+            ]
+        }
+    ]
+}
